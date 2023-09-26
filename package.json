@@ -1,0 +1,35 @@
+{
+    "name": "eslint-nibble",
+    "displayName": "Eslint Nibble (Migrate Tool)",
+    "publisher": "zardoy",
+    "version": "0.0.0-dev",
+    "license": "MIT",
+    "categories": [
+        "Other"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "run",
+                "title": "Run"
+            }
+        ]
+    },
+    "scripts": {
+        "start": "vscode-framework start",
+        "build": "vscode-framework build"
+    },
+    "dependencies": {
+        "@types/node": "^20.7.0",
+        "@types/vscode": "^1.82.0",
+        "@zardoy/vscode-utils": "^0.0.50",
+        "execa": "^8.0.1",
+        "lodash": "^4.17.21",
+        "vscode-framework": "^0.0.18"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.199",
+        "@zardoy/tsconfig": "^1.5.0",
+        "typescript": "^5.2.2"
+    }
+}
